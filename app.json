@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "StudyVault",
+    "slug": "studyvault-firebase",
+    "scheme": "studyvault",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-router",
+      "expo-document-picker"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./public/favicon.png"
+    },
+    "android": {
+      "package": "com.example.studyvault"
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.studyvault"
+    }
+  }
+}

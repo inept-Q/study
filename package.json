@@ -1,0 +1,38 @@
+{
+  "name": "studyvault-firebase",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "export:web": "expo export --platform web",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "firebase:login": "firebase login",
+    "firebase:init": "firebase init hosting",
+    "firebase:deploy": "npm run export:web && firebase deploy",
+    "build:web": "expo export --platform web"
+  },
+  "dependencies": {
+    "expo": "~53.0.0",
+    "expo-document-picker": "~13.0.0",
+    "expo-file-system": "~18.0.0",
+    "expo-router": "~5.0.0",
+    "expo-secure-store": "~14.0.0",
+    "firebase": "^11.6.0",
+    "react": "19.0.0",
+    "react-native": "0.79.0",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.0",
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "~19.0.10",
+    "eslint": "^9.25.0",
+    "typescript": "~5.8.3"
+  }
+}
